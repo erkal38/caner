@@ -7,7 +7,7 @@ public class Reverse {
 	}
 
 	public static String reverse(String string) {
-       StringBuilder str=new StringBuilder(string);
+       StringBuffer str=new StringBuffer(string);
        
 		return str.reverse().toString();
 	}
