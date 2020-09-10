@@ -3,7 +3,7 @@ package selfStudy1;
 public class Password {
 
 	public static void main(String[] args) {
-       System.out.println(password("1254i@235"));
+       System.out.println(password("125A4i@235"));
 	}
 
 	public static boolean password(String str) {
@@ -16,7 +16,7 @@ public class Password {
 				HasUppere=str.matches(uppercase),
 				HasSpecial=str.matches(specialchars),
 				HasDigits=str.matches(numbers),
-				Valid=false;
+				Valid=true;
 				
 		if(str.length()>=6&&!str.contains(""))
 			if(HasLower&&HasUppere&&HasDigits&&HasSpecial)

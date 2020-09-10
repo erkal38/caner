@@ -7,7 +7,7 @@ import java.util.TreeSet;
 public class Same {
 
 	public static void main(String[] args) {
-         System.out.println(same("nugre","lakdirim"));
+         System.out.println(same("ahmet","temah"));
 	}
 
 	public static boolean same(String str1, String str2) {

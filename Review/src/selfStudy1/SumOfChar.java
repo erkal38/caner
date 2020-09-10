@@ -14,7 +14,6 @@ public class SumOfChar {
 		int result = 0;
 
 		List<String> str2 = new ArrayList<String>(Arrays.asList(str.split("")));
-		System.out.println(str2.toString());
 		for (String string : str2) {
 			int num = Integer.parseInt(string);
 

@@ -1,27 +1,20 @@
 package selfStudy1;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 public class RemoveDuplicate {
 
 	public static void main(String[] args) {
-        System.out.println(unique("AAABBCCCDEF"));
+        unique("AAABBCCC./,DEF");
 	}
 
-	public static String unique(String string) {
-        String[]arr=string.split("");
-        System.out.println(Arrays.toString(arr));
-        String unique1="";
-        for(int j=0;j<arr.length;j++) {
-        int num=0;
-        for(int i=0;i<arr.length;i++) {
-                if(arr[i].equals(arr[j])) 
-                	num++;
-        }
-       if(num==1)
-    	 unique1+=arr[j];
+	public static void unique(String string) {
+		string=string.replace("./,","");
+       Set<String>str=new HashSet<String>(Arrays.asList(string.split("")));
+       System.out.println(str);
 	}
-		return unique1;
-}
+	
 }
 	
