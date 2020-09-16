@@ -14,19 +14,15 @@ public class TwoArray {
 	public static int[] concatTwoArray(int[] num, int[] num1) {
 		int[]result=new int[num.length+num1.length];
 		int i=0;
-		for (int each : num) {
-			result[i]=each;
+        for (int each :num) {
+        	result[i]=each;
 			i++;
-			
 		}
-		for (int each2 : num1) {
-			result[i]=each2;
-			i++;
-			
+        for(int each1:num1) {
+        	result[i]=each1;
+        	i++;
 		}
-		
 		return result;
-		
 	}
  
 }
