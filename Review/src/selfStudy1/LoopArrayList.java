@@ -15,12 +15,9 @@ public class LoopArrayList {
      nums.add(90);
      nums.add(5000);
      nums.add(950);
-	 for (Integer n : nums) {
-		System.out.print(n +" |");
-	}
-	 System.out.println();
-	 nums.removeIf(n->n<500);
-	 System.out.println(nums);
+	 System.out.println(nums.removeIf(n->n<500));
+	 nums.forEach(n->System.out.print(n+"|"));
+	 
 	} 
    
 }

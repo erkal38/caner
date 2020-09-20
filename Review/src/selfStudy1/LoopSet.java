@@ -2,6 +2,7 @@ package selfStudy1;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 
 public class LoopSet {
@@ -15,7 +16,10 @@ public class LoopSet {
      nums.add(150);
      nums.add(90);
      nums.add(5000);
+     TreeSet<Integer>num=new TreeSet<Integer>(nums);
      nums.forEach(n->System.out.print(n+" |"));
+     System.out.println();
+     num.forEach(k->System.out.print(k+"||"));
      
 	}
     
