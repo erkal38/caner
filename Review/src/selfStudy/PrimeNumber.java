@@ -3,7 +3,7 @@ package selfStudy;
 public class PrimeNumber {
 
 	public static void main(String[] args) {
-        int number = 13;
+        int number = 12;
        if (primeNumber(number)) {
     	   System.out.println(number+" is a prime number ");
        }else {
@@ -15,7 +15,7 @@ public class PrimeNumber {
 		if(number==0||number==1) {
         	flag=false;
         }else 
-        	for(int i=2;i<number-1;i++) {
+        	for(int i=2;i<number;i++) {
         		if(number%i==0) {
         			flag=false;
         			break;

@@ -13,14 +13,14 @@ public class MoveZer {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<>(Arrays.asList(1,0,2,0,0,3,4));
-		 Iterator<Integer>list1=list.iterator();
-		 while(list1.hasNext()) {
-			 int val=list1.next();
-			 if(val==0) {
-				 list1.remove();
-		 
+		List<Integer>num=new ArrayList<Integer>();
+		 for(int i=0;i<list.size();i++) {
+			 Integer element=list.get(i);
+			 if(element!=0) {
+				 num.add(element);
 		 }
-	}
-		 System.out.println(list.toString());
+		 }
+		 num.add(num.size(),0);
+		 System.out.println(num.toString());
 }
 }

@@ -24,10 +24,10 @@ public class LoopWithIterator {
 	     Collections.sort(nums,Comparator.naturalOrder());
 	     System.out.println(nums);
 	     Iterator<Integer>it=nums.iterator();
-//	     while(it.hasNext()) {
-//	    	 int i=0;
-//	    	 System.out.println(it.next());
-//	     }
+    while(it.hasNext()) {
+	    	 int i=0;
+    	System.out.println(it.next());
+    	}
           List<Person>plst=new ArrayList<Person>();
           plst.add(new Person("John",20));
           plst.add(new Person("Adam",32));

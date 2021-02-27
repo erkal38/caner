@@ -11,9 +11,8 @@ public class RemoveDuplicate {
 	}
 
 	public static void unique(String string) {
-		string=string.replace("./,","");
-       Set<String>str=new HashSet<String>(Arrays.asList(string.split("")));
-       System.out.println(str);
+		string=new HashSet<String>(Arrays.asList(string.split(""))).toString();
+		System.out.println(string);
 	}
 	
 }

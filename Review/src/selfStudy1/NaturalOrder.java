@@ -1,6 +1,8 @@
 package selfStudy1;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.TreeSet;
 
 public class NaturalOrder {
@@ -11,8 +13,7 @@ public class NaturalOrder {
      System.out.println(nums.size());
      for (Integer integer : nums) {
     	 System.out.println(integer);
-		
+	
 	}
 	}
-
 }

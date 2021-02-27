@@ -13,10 +13,10 @@ public class ListColl {
    System.out.println(myInt);
    myInt.replaceAll(each->each+5);
    System.out.println(myInt);
-   myInt.sort(Comparator.naturalOrder());
+   myInt.sort(Comparator.reverseOrder());
    System.out.println(myInt);
-   System.out.println(myInt.subList(4,myInt.size()));
-   myInt.remove(3);
+   System.out.println(myInt.subList(3,myInt.size()));
+   System.out.println(myInt.remove(3));
    System.out.println(myInt);
 	}
 

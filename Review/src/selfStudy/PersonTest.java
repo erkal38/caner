@@ -6,6 +6,7 @@ public class PersonTest {
      Person p1=new Person();
      p1.setAge(35);
      System.out.println(p1.getAge());
+     System.out.println(new Person().name="Ergun");
      
 	}
 

@@ -6,11 +6,16 @@ import java.util.List;
 public class ArrayLis {
 
 	public static void main(String[] args) {
-        List<Integer> ahmet=new ArrayList<Integer>();
+        Integer sum=0;
+		List<Integer> ahmet=new ArrayList<Integer>();
         ahmet.add(5);
-        System.out.println(5+2);
-        
+        ahmet.add(7);
+        System.out.println(ahmet.toString());
+        ahmet.forEach(num->{System.out.println(num);
+        });
+        }
 		
-	}
+	
 
 }
+

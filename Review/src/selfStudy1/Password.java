@@ -8,6 +8,7 @@ public class Password {
 
 	public static boolean password(String str) {
 		String lowercase="(.*[a-z].*)";
+		System.out.println(lowercase.contains("z"));
 		String uppercase="(.*[A-Z].*)";
 		String numbers="(.*[0-9].*)";
 		String specialchars="(.*[-/,:-@].*)";

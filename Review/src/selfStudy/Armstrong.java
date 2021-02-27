@@ -5,23 +5,25 @@ import java.util.Scanner;
 public class Armstrong {
 
 	public static void main(String[] args) {
-      Scanner sc=new Scanner(System.in);
-      System.out.println("Bir sayi giriniz");
-      int number=sc.nextInt();
-      System.out.println("Basamak degeri giriniz");
-      int digit=sc.nextInt();
-      int sum=0;
-      int temp=number;
- 	 do {
- 		 int value=temp%10;
- 		 temp/=10;
- 		 sum+=Math.pow(value,digit);
- 	} while (temp>0);
-      if(sum==number) {
-   	   System.out.println("This is an Armstrong number");
-   		 
-      }else {
-   	   System.out.println("This is not an Armstrong number");
-   }
-} 
+		int num = 153;
+		int a = 0, b = 0, c = num;
+
+		while (num > 0) {
+
+			a = num % 10;
+
+			num /= 10;
+
+			b = b + (a * a * a);
+
+		}
+
+		if (c == b) {
+
+			System.out.println("Armstrong");
+		}else {
+
+			System.out.println("Armstrong degil");
+	}
+}
 }

@@ -11,6 +11,7 @@ public class Calculator {
       public static double plus(double num1,double num2) {
     	  return num1+num2;
       }
+      
       public static double minus(double num1,double num2) {
     	  return num1-num2;
       }
@@ -21,7 +22,7 @@ public class Calculator {
           System.out.println(Calculator.plus(55, 4));
           System.out.println(Calculator.minus(55, 4));
           Calculator c=new Calculator(55,4);
-          
+          System.out.println(Math.max(55, 4));
          
       }
       }

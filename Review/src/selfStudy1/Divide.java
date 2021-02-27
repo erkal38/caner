@@ -1,3 +1,4 @@
+
 package selfStudy1;
 
 public class Divide {
