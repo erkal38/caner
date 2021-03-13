@@ -6,6 +6,8 @@ public class NameOfWeekDays {
 
 	public static void main(String[] args) {
        Scanner num=new Scanner(System.in);
+     do {
+		
        System.out.println("Enter one number");
        int dayNum=num.nextInt();
        switch (dayNum) {
@@ -31,8 +33,10 @@ public class NameOfWeekDays {
 		System.out.println("Sunday");
 		break;
 	default:
+		System.out.println("Invalid input");
 		break;
 	}
+     } while (true);
 	}
 
 }
