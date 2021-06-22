@@ -11,21 +11,14 @@ public class MultiplicaitonTable {
  *                            3 6 9 12
  *                            4 8 12 16
  */
-        Scanner scan=new Scanner(System.in);
-        System.out.println("Lutfen bir sayi giriniz");
-        int number=scan.nextInt();
-
-
-
-        for (int i = 1; i <= number; i++) {
-
-            for (int j = 1; j <= number; j++) {
-
-                System.out.print(i*j + " ");
-
-            } System.out.println();
-        }
-        scan.close();
+       Scanner scan=new Scanner(System.in);
+       System.out.println("Please enter a number less 10");
+       int num=scan.nextInt();
+       for (int i = 1; i <=num; i++) {
+         for(int j=1;j<=num;j++) {
+        	 System.out.print(i*j);
+         }System.out.println();
 	}
-
+    
+}
 }

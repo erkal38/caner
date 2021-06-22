@@ -12,16 +12,14 @@ ORNEK:
     INPUT      : Mustafa
     OUTPUT     : fafafa
 		 */
+       Scanner scan=new Scanner(System.in);
+       System.out.println("Please enter a string");
+       String name=scan.next();
+       String str=name.substring(name.length()-2);
+       for (int i = 1; i <4; i++) {
+    	   System.out.print(str);
 		
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a String");
-		String word = scan.next();
-		if(word.length()>=2) {
-			System.out.println(word.substring(word.length()-2)+word.substring(word.length()-2)+word.substring(word.length()-2));
-		}else {
-			System.out.println("Length of String should be at least 2");
-		}
-		scan.close();
+	}
 	}
 
 }

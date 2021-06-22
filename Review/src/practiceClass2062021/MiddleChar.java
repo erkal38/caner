@@ -8,21 +8,19 @@ public class MiddleChar {
         //1.Ask user to enter a word. If the word has odd number of characters 
 		//length() of characters
         //and has 3 or more characters, print the character in the middle of the word.
+		//ergun=>g
+       
+	 Scanner scan=new Scanner(System.in);
+	 System.out.println("Please enter a word");
+	 String word=scan.nextLine();
+	 //System.out.println(word.substring(2,4));
+	 if(word.length()>=3&&word.length()%2==1) {
+		 String str=word.substring(word.length()/2,word.length()/2+1);
+		 System.out.println(str);
 
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter a string");
-        String word = scan.next();
-
-
-        if(word.length()%2==1 && word.length()>=3) {
-            System.out.println("The word has odd number");
-
-            System.out.println("middleChar is = "+word.substring(word.length()/2, word.length()/2+1));
-
-
-        }else {
-            System.out.println("It has not odd number of characters");
-        }
+	 }else {
+		 System.out.println("it has even number of chars.");
+	 }
 	}
 
 }

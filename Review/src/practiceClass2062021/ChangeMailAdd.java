@@ -8,17 +8,16 @@ public class ChangeMailAdd {
         // ask user to enter an e-mail address
         // then if it contains "hotmail" replace it with "gmail"
         // e.g: johnbrown@hotmail.com ==> johnbrown@gmail.com
-
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Enter hotmail address");
-        String hotmail = scan.nextLine();
-        if (hotmail.contains("@hotmail")) {
-            String gmail = hotmail.replace("@hotmail.com", "@gmail.com");// order is important
-            System.out.println(gmail);
-        } else {
-            System.out.println("You didn't enter a hotmail");
-        }
-        scan.close();
+      
+	 Scanner scan=new Scanner(System.in);
+	 System.out.println("Please enter a hotmail address");
+	 String email=scan.nextLine();
+	 if(email.contains("@hotmail")) {
+		 System.out.println(email.replace("@hotmail.com","@gmail.com"));
+	 }else {
+		 System.out.println("Please enter correct hotmail address");
+	 
+	 }
 	}
 
 }
