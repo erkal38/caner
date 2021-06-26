@@ -1,4 +1,4 @@
-package officePracticeClass2262021;
+package officePracticeClass2562021;
 
 public class AsciiValues {
 
@@ -10,7 +10,7 @@ public class AsciiValues {
          */
         for (char i = 'a'; i <= 'z'; i++) {
             int x=i;
-            System.out.println( "Ascii value of " + i + " = " +x );
+            System.out.println( "Ascii value of " + i + " = " +i );
         }
 	
 	}

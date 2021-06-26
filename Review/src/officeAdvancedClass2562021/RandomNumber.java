@@ -1,4 +1,4 @@
-package officeAdvancedClass2262021;
+package officeAdvancedClass2562021;
 
 import java.util.Random;
 
@@ -9,11 +9,12 @@ public class RandomNumber {
 		      * 
 		      */
 		      int i=50;
-		      System.out.println(i);
+		      System.out.println("input number= "+i);
 	          Random rn=new Random();
 	          int random=rn.nextInt(60)+1;
+	          System.out.println("random number= "+random);
 	          if(random==i) {
-	          	System.out.println("random=number");
+	          	System.out.println("random number is equal input number");
 	          }
 	          System.out.println(random);  	
 	}

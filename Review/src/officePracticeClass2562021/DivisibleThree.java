@@ -1,6 +1,6 @@
-package officePracticeClass2262021;
+package officePracticeClass2562021;
 
-public class DivisibleThreeAndFive {
+public class DivisibleThree {
 
 	public static void main(String[] args) {
 		// Let's print the numbers from 0 to 100 to 3 and the numbers to be divided.

@@ -1,4 +1,4 @@
-package officePracticeClass2262021;
+package officePracticeClass2562021;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package officeAdvancedClass2262021;
+package officeAdvancedClass2562021;
 
 import java.util.Scanner;
 
@@ -13,10 +13,6 @@ public class StringManipulation {
          * sentences =“hihihi” String=“hi” output=“There are 3 "hi"s in hihihi "
          * sentences =“I am coming” String=“com” output ="there is 1 “com” in sentences "
          */
-
-
-        // 1) get a sentences and a word from user
-
         Scanner scan= new Scanner(System.in);
         System.out.println("Please enter a sentences");
         String sentences = scan.nextLine();
@@ -46,4 +42,4 @@ public class StringManipulation {
 	}
 
 }
-	}
+}
