@@ -6,14 +6,15 @@ public class NumberOfJavaAppears {
 	  /*Write a method and calculate how many JAVA is typed on the string.
 	   * Example intput str="javajavaxxxahmet"
 	   */
-		String str="javajavaxxxergun";
-		dummy(str);
-	}
+		
+	  String str="javajavaxxxahmet";
+	  String str1="java";
+	  dummy(str,str1);
 
-	public static void dummy(String string) {
-       	int num=(string.length()-(string.replace("java","")).length())/4;	
-		System.out.println("input= "+string);
-		System.out.println("output= "+num);
-	}
+}
 
+	public static void dummy(String str,String str1) {
+     		int num=(str.length()-(str.replace("java","")).length())/str1.length();
+     		System.out.println("JAVA word is repeated= "+num+" times");
+	}
 }

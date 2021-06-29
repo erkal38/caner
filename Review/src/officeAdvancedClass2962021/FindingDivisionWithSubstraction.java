@@ -14,25 +14,20 @@ public class FindingDivisionWithSubstraction {
          * Output : Quotient=8 Remainder=4
          */
 
-        int input=44;
-        int divisor=5;
-        division(input,divisor);
+		 int input=40;
+		 int divisor=5;
+		 division(input,divisor);
+	}
 
-
-    }
-
-    public static void division(int input, int divisor) {
-        int quotient =0;
-        int remainder=input;
-
-        while (remainder>divisor) {
-
-            //remainder=remainder-divisor;
-            remainder-=divisor;
-            quotient++;
-        }
-
-        System.out.println("Quotient = " + quotient + " and remainder = "+ remainder);
-    }
-}
+	public static void division(int input, int divisor) {
+         int quotient=0;
+         int remainder=input;
+         
+         while(remainder>=divisor) {
+        	 remainder-=divisor;
+        	 quotient++;
+         }
+         
+         System.out.println("Quotient= "+quotient+ " and remainder = "+ remainder);
+	}}
 
