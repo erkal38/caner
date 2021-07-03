@@ -29,7 +29,7 @@ public class FindingFrequency {
                     frequency++;
                 }
             }
-            if (!strWithFrequency.contains(str.substring(i, i+1))) {
+            if (frequency>=2 && !strWithFrequency.contains(str.substring(i, i+1))) {
                 strWithFrequency=strWithFrequency+str.charAt(i)+frequency;
             }
             frequency=0;
